@@ -6,7 +6,8 @@ namespace loop{
         static void Main(){
              int tal= 1;
              while (tal<=20){
-            Console.WriteLine(tal+1);
+            Console.WriteLine(tal);
+              tal= tal+1;
         }
         }
 }
